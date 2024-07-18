@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <NavigationApp />
-    <router-view />
+    <div class="content">
+      <div class="lolo">
+        <h2 class="lolo-name">ًWalaa Mostafa</h2>
+      </div>
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -15,9 +20,3 @@ export default {
   },
 };
 </script>
-
-<style>
-body {
-  font-family: Arial, sans-serif;
-}
-</style>

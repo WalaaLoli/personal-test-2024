@@ -4,6 +4,7 @@ import Experience from "../components/MyExpeience.vue";
 import Education from "../components/MyEducation.vue";
 import Skills from "../components/MySkills.vue";
 import Languages from "../components/MyLanguages.vue";
+import Contact from "../components/MyContact.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -13,6 +14,7 @@ const router = createRouter({
     { path: "/education", component: Education },
     { path: "/skills", component: Skills },
     { path: "/languages", component: Languages },
+    { path: "/contact", component: Contact },
   ],
 });
 
